@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outer-ring {
+  width: 300px;
+  height: 300px;
+  background-color: #444;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inner-quarters {
+  width: 50%;
+  height: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* .inner-quarters.active {
+  background-color: ${({ currentSeason }) => currentSeason.color};
+} */
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
